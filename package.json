@@ -1,6 +1,6 @@
 {
   "name": "yt-dlp-bridge",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "TypeScript toolkit for safe yt-dlp command planning, argv generation, execution, parsing, and structured errors.",
   "type": "module",
   "license": "MIT",
