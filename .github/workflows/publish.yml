@@ -18,6 +18,9 @@ jobs:
   publish:
     name: Publish package
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
 
     steps:
       - name: Checkout
@@ -27,7 +30,6 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: 24
-          registry-url: https://registry.npmjs.org
           package-manager-cache: false
 
       - name: Enable pnpm
@@ -66,4 +68,4 @@ jobs:
           fi
 
       - name: Publish
-        run: npm publish --provenance --access public
+        run: npm publish --provenance --access public --registry=https://registry.npmjs.org/
