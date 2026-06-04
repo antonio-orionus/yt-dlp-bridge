@@ -1,0 +1,5513 @@
+{
+  "groups": [
+    {
+      "optionCount": 31,
+      "title": "Root Options"
+    },
+    {
+      "optionCount": 35,
+      "title": "General Options"
+    },
+    {
+      "optionCount": 8,
+      "title": "Network Options"
+    },
+    {
+      "optionCount": 6,
+      "title": "Geo-restriction"
+    },
+    {
+      "optionCount": 28,
+      "title": "Video Selection"
+    },
+    {
+      "optionCount": 28,
+      "title": "Download Options"
+    },
+    {
+      "optionCount": 40,
+      "title": "Filesystem Options"
+    },
+    {
+      "optionCount": 4,
+      "title": "Thumbnail Options"
+    },
+    {
+      "optionCount": 4,
+      "title": "Internet Shortcut Options"
+    },
+    {
+      "optionCount": 33,
+      "title": "Verbosity and Simulation Options"
+    },
+    {
+      "optionCount": 12,
+      "title": "Workarounds"
+    },
+    {
+      "optionCount": 21,
+      "title": "Video Format Options"
+    },
+    {
+      "optionCount": 8,
+      "title": "Subtitle Options"
+    },
+    {
+      "optionCount": 14,
+      "title": "Authentication Options"
+    },
+    {
+      "optionCount": 40,
+      "title": "Post-Processing Options"
+    },
+    {
+      "optionCount": 5,
+      "title": "SponsorBlock Options"
+    },
+    {
+      "optionCount": 6,
+      "title": "Extractor Options"
+    }
+  ],
+  "optionCount": 323,
+  "options": [
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--xattr-set-filesize"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--dump-user-agent"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--youtube-include-dash-manifest"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--no-youtube-skip-dash-manifest"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--youtube-skip-dash-manifest"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--no-youtube-include-dash-manifest"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--youtube-include-hls-manifest"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--no-youtube-skip-hls-manifest"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--youtube-skip-hls-manifest"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--no-youtube-include-hls-manifest"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--youtube-print-sig-code"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--sponskrub"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--no-sponskrub"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--sponskrub-cut"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--no-sponskrub-cut"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--sponskrub-force"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--no-sponskrub-force"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--prefer-avconv"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--no-prefer-ffmpeg"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--prefer-ffmpeg"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--no-prefer-avconv"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [],
+      "metavar": null,
+      "shortOptions": [
+        "-C"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--call-home"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--no-call-home"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--include-ads"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--no-include-ads"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--write-annotations"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--no-write-annotations"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "_",
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--sponskrub-location"
+      ],
+      "metavar": "ARG",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "_",
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--sponskrub-args"
+      ],
+      "metavar": "ARG",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "_",
+      "group": "Root Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--cn-verification-proxy"
+      ],
+      "metavar": "ARG",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "print_help",
+      "group": "General Options",
+      "help": "Print this help text and exit",
+      "longOptions": [
+        "--help"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-h"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "version",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": null,
+      "group": "General Options",
+      "help": "Print program version and exit",
+      "longOptions": [
+        "--version"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "update_self",
+      "group": "General Options",
+      "help": "Check if updates are available. Update instructions depend on the yt-dlp installation method",
+      "longOptions": [
+        "--update"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-U"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "update_self",
+      "group": "General Options",
+      "help": "Do not check for updates (default)",
+      "longOptions": [
+        "--no-update"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "update_self",
+      "group": "General Options",
+      "help": "Upgrade/downgrade to a specific version. CHANNEL can be a repository as well. CHANNEL and TAG default to \"stable\" and \"latest\" respectively if omitted; See \"UPDATE\" for details. Supported channels: stable, nightly, master",
+      "longOptions": [
+        "--update-to"
+      ],
+      "metavar": "[CHANNEL]@[TAG]",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "ignoreerrors",
+      "group": "General Options",
+      "help": "Ignore download and postprocessing errors. The download will be considered successful even if the postprocessing fails",
+      "longOptions": [
+        "--ignore-errors"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-i"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "ignoreerrors",
+      "group": "General Options",
+      "help": "Continue with next video on download errors; e.g. to skip unavailable videos in a playlist (default)",
+      "longOptions": [
+        "--no-abort-on-error"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "ignoreerrors",
+      "group": "General Options",
+      "help": "Abort downloading of further videos if an error occurs (Alias: --no-ignore-errors)",
+      "longOptions": [
+        "--abort-on-error",
+        "--no-ignore-errors"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "list_extractors",
+      "group": "General Options",
+      "help": "List all supported extractors and exit",
+      "longOptions": [
+        "--list-extractors"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "list_extractor_descriptions",
+      "group": "General Options",
+      "help": "Output descriptions of all supported extractors and exit",
+      "longOptions": [
+        "--extractor-descriptions"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [],
+      "dest": "allowed_extractors",
+      "group": "General Options",
+      "help": "Extractor names to use separated by commas. You can also use regexes, \"all\", \"default\" and \"end\" (end URL matching); e.g. --ies \"holodex.*,end,youtube\". Prefix the name with a \"-\" to exclude it, e.g. --ies default,-generic. Use --list-extractors for a list of extractor names. (Alias: --ies)",
+      "longOptions": [
+        "--use-extractors",
+        "--ies"
+      ],
+      "metavar": "NAMES",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "force_generic_extractor",
+      "group": "General Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--force-generic-extractor"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "default_search",
+      "group": "General Options",
+      "help": "Use this prefix for unqualified URLs. E.g. \"gvsearch2:python\" downloads two videos from google videos for the search term \"python\". Use the value \"auto\" to let yt-dlp guess (\"auto_warning\" to emit a warning when guessing). \"error\" just throws an error. The default value \"fixup_error\" repairs broken URLs, but emits an error if this is not possible instead of searching",
+      "longOptions": [
+        "--default-search"
+      ],
+      "metavar": "PREFIX",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "ignoreconfig",
+      "group": "General Options",
+      "help": "Don't load any more configuration files except those given to --config-locations. For backward compatibility, if this option is found inside the system configuration file, the user configuration is not loaded. (Alias: --no-config)",
+      "longOptions": [
+        "--ignore-config",
+        "--no-config"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "config_locations",
+      "group": "General Options",
+      "help": "Do not load any custom configuration files (default). When given inside a configuration file, ignore all previous --config-locations defined in the current file",
+      "longOptions": [
+        "--no-config-locations"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "append",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "config_locations",
+      "group": "General Options",
+      "help": "Location of the main configuration file; either the path to the config or its containing directory (\"-\" for stdin). Can be used multiple times and inside other configuration files",
+      "longOptions": [
+        "--config-locations"
+      ],
+      "metavar": "PATH",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "default"
+      ],
+      "dest": "plugin_dirs",
+      "group": "General Options",
+      "help": "Path to an additional directory to search for plugins. This option can be used multiple times to add multiple directories. Use \"default\" to search the default plugin directories (default)",
+      "longOptions": [
+        "--plugin-dirs"
+      ],
+      "metavar": "DIR",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "plugin_dirs",
+      "group": "General Options",
+      "help": "Clear plugin directories to search, including defaults and those provided by previous --plugin-dirs",
+      "longOptions": [
+        "--no-plugin-dirs"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "deno"
+      ],
+      "dest": "js_runtimes",
+      "group": "General Options",
+      "help": "Additional JavaScript runtime to enable, with an optional location for the runtime (either the path to the binary or its containing directory). This option can be used multiple times to enable multiple runtimes. Supported runtimes are (in order of priority, from highest to lowest): deno, node, quickjs, bun. Only \"deno\" is enabled by default. The highest priority runtime that is both enabled and available will be used. In order to use a lower priority runtime when \"deno\" is available, --no-js-runtimes needs to be passed before enabling other runtimes",
+      "longOptions": [
+        "--js-runtimes"
+      ],
+      "metavar": "RUNTIME[:PATH]",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "js_runtimes",
+      "group": "General Options",
+      "help": "Clear JavaScript runtimes to enable, including defaults and those provided by previous --js-runtimes",
+      "longOptions": [
+        "--no-js-runtimes"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [],
+      "dest": "remote_components",
+      "group": "General Options",
+      "help": "Remote components to allow yt-dlp to fetch when required. This option is currently not needed if you are using an official executable or have the requisite version of the yt-dlp-ejs package installed. You can use this option multiple times to allow multiple components. Supported values: ejs:npm (external JavaScript components from npm), ejs:github (external JavaScript components from yt-dlp-ejs GitHub). By default, no remote components are allowed",
+      "longOptions": [
+        "--remote-components"
+      ],
+      "metavar": "COMPONENT",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "remote_components",
+      "group": "General Options",
+      "help": "Disallow fetching of all remote components, including any previously allowed by --remote-components or defaults.",
+      "longOptions": [
+        "--no-remote-components"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": false,
+      "dest": "extract_flat",
+      "group": "General Options",
+      "help": "Do not extract a playlist's URL result entries; some entry metadata may be missing and downloading may be bypassed",
+      "longOptions": [
+        "--flat-playlist"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "extract_flat",
+      "group": "General Options",
+      "help": "Fully extract the videos of a playlist (default)",
+      "longOptions": [
+        "--no-flat-playlist"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "live_from_start",
+      "group": "General Options",
+      "help": "Download livestreams from the start. Currently experimental and only supported for YouTube, Twitch, and TVer",
+      "longOptions": [
+        "--live-from-start"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "live_from_start",
+      "group": "General Options",
+      "help": "Download livestreams from the current time (default)",
+      "longOptions": [
+        "--no-live-from-start"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "wait_for_video",
+      "group": "General Options",
+      "help": "Wait for scheduled streams to become available. Pass the minimum number of seconds (or range) to wait between retries",
+      "longOptions": [
+        "--wait-for-video"
+      ],
+      "metavar": "MIN[-MAX]",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "wait_for_video",
+      "group": "General Options",
+      "help": "Do not wait for scheduled streams (default)",
+      "longOptions": [
+        "--no-wait-for-video"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "mark_watched",
+      "group": "General Options",
+      "help": "Mark videos watched (even with --simulate)",
+      "longOptions": [
+        "--mark-watched"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "mark_watched",
+      "group": "General Options",
+      "help": "Do not mark videos watched (default)",
+      "longOptions": [
+        "--no-mark-watched"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "color",
+      "group": "General Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--no-colors",
+        "--no-colours"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": {},
+      "dest": "color",
+      "group": "General Options",
+      "help": "Whether to emit color codes in output, optionally prefixed by the STREAM (stdout or stderr) to apply the setting to. Can be one of \"always\", \"auto\" (default), \"never\", or \"no_color\" (use non color terminal sequences). Use \"auto-tty\" or \"no_color-tty\" to decide based on terminal support only. Can be used multiple times",
+      "longOptions": [
+        "--color"
+      ],
+      "metavar": "[STREAM:]POLICY",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": "set()",
+      "dest": "compat_opts",
+      "group": "General Options",
+      "help": "Options that can help keep compatibility with youtube-dl or youtube-dlc configurations by reverting some of the changes made in yt-dlp. See \"Differences in default behavior\" for details",
+      "longOptions": [
+        "--compat-options"
+      ],
+      "metavar": "OPTS",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "_",
+      "group": "General Options",
+      "help": "Create aliases for an option string. Unless an alias starts with a dash \"-\", it is prefixed with \"--\". Arguments are parsed according to the Python string formatting mini-language. E.g. --alias get-audio,-X \"-S aext:{0},abr -x --audio-format {0}\" creates options \"--get-audio\" and \"-X\" that takes an argument (ARG0) and expands to \"-S aext:ARG0,abr -x --audio-format ARG0\". All defined aliases are listed in the --help output. Alias options can trigger more aliases; so be careful to avoid defining recursive options. As a safety measure, each alias may be triggered a maximum of 100 times. This option can be used multiple times",
+      "longOptions": [
+        "--alias"
+      ],
+      "metavar": "ALIASES OPTIONS",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "_",
+      "group": "General Options",
+      "help": "Applies a predefined set of options. e.g. --preset-alias mp3. The following presets are available: mp3, aac, mp4, mkv, sleep. See the \"Preset Aliases\" section at the end for more info. This option can be used multiple times",
+      "longOptions": [
+        "--preset-alias"
+      ],
+      "metavar": "PRESET",
+      "shortOptions": [
+        "-t"
+      ],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "proxy",
+      "group": "Network Options",
+      "help": "Use the specified HTTP/HTTPS/SOCKS proxy. To enable SOCKS proxy, specify a proper scheme, e.g. socks5://user:pass@127.0.0.1:1080/. Pass in an empty string (--proxy \"\") for direct connection",
+      "longOptions": [
+        "--proxy"
+      ],
+      "metavar": "URL",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "socket_timeout",
+      "group": "Network Options",
+      "help": "Time to wait before giving up, in seconds",
+      "longOptions": [
+        "--socket-timeout"
+      ],
+      "metavar": "SECONDS",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "float"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "source_address",
+      "group": "Network Options",
+      "help": "Client-side IP address to bind to",
+      "longOptions": [
+        "--source-address"
+      ],
+      "metavar": "IP",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "impersonate",
+      "group": "Network Options",
+      "help": "Client to impersonate for requests. E.g. chrome, chrome-110, chrome:windows-10. Pass --impersonate=\"\" to impersonate any client. Note that forcing impersonation for all requests may have a detrimental impact on download speed and stability",
+      "longOptions": [
+        "--impersonate"
+      ],
+      "metavar": "CLIENT[:OS]",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "list_impersonate_targets",
+      "group": "Network Options",
+      "help": "List available clients to impersonate.",
+      "longOptions": [
+        "--list-impersonate-targets"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "source_address",
+      "group": "Network Options",
+      "help": "Make all connections via IPv4",
+      "longOptions": [
+        "--force-ipv4"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-4"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "source_address",
+      "group": "Network Options",
+      "help": "Make all connections via IPv6",
+      "longOptions": [
+        "--force-ipv6"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-6"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "enable_file_urls",
+      "group": "Network Options",
+      "help": "Enable file:// URLs. This is disabled by default for security reasons.",
+      "longOptions": [
+        "--enable-file-urls"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "geo_verification_proxy",
+      "group": "Geo-restriction",
+      "help": "Use this proxy to verify the IP address for some geo-restricted sites. The default proxy specified by --proxy (or none, if the option is not present) is used for the actual downloading",
+      "longOptions": [
+        "--geo-verification-proxy"
+      ],
+      "metavar": "URL",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": "default",
+      "dest": "geo_bypass",
+      "group": "Geo-restriction",
+      "help": "How to fake X-Forwarded-For HTTP header to try bypassing geographic restriction. One of \"default\" (only when known to be useful), \"never\", an IP block in CIDR notation, or a two-letter ISO 3166-2 country code",
+      "longOptions": [
+        "--xff"
+      ],
+      "metavar": "VALUE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "geo_bypass",
+      "group": "Geo-restriction",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--geo-bypass"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "geo_bypass",
+      "group": "Geo-restriction",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--no-geo-bypass"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "geo_bypass",
+      "group": "Geo-restriction",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--geo-bypass-country"
+      ],
+      "metavar": "CODE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "geo_bypass",
+      "group": "Geo-restriction",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--geo-bypass-ip-block"
+      ],
+      "metavar": "IP_BLOCK",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": 1,
+      "dest": "playliststart",
+      "group": "Video Selection",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--playlist-start"
+      ],
+      "metavar": "NUMBER",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "int"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "playlistend",
+      "group": "Video Selection",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--playlist-end"
+      ],
+      "metavar": "NUMBER",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "int"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "playlist_items",
+      "group": "Video Selection",
+      "help": "Comma-separated playlist_index of the items to download. You can specify a range using \"[START]:[STOP][:STEP]\". For backward compatibility, START-STOP is also supported. Use negative indices to count from the right and negative STEP to download in reverse order. E.g. \"-I 1:3,7,-5::2\" used on a playlist of size 15 will download the items at index 1,2,3,7,11,13,15",
+      "longOptions": [
+        "--playlist-items"
+      ],
+      "metavar": "ITEM_SPEC",
+      "shortOptions": [
+        "-I"
+      ],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "matchtitle",
+      "group": "Video Selection",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--match-title"
+      ],
+      "metavar": "REGEX",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "rejecttitle",
+      "group": "Video Selection",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--reject-title"
+      ],
+      "metavar": "REGEX",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "min_filesize",
+      "group": "Video Selection",
+      "help": "Abort download if filesize is smaller than SIZE, e.g. 50k or 44.6M",
+      "longOptions": [
+        "--min-filesize"
+      ],
+      "metavar": "SIZE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "max_filesize",
+      "group": "Video Selection",
+      "help": "Abort download if filesize is larger than SIZE, e.g. 50k or 44.6M",
+      "longOptions": [
+        "--max-filesize"
+      ],
+      "metavar": "SIZE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "date",
+      "group": "Video Selection",
+      "help": "Download only videos uploaded on this date. The date can be \"YYYYMMDD\" or in the format [now|today|yesterday][-N[day|week|month|year]]. E.g. \"--date today-2weeks\" downloads only videos uploaded on the same day two weeks ago",
+      "longOptions": [
+        "--date"
+      ],
+      "metavar": "DATE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "datebefore",
+      "group": "Video Selection",
+      "help": "Download only videos uploaded on or before this date. The date formats accepted are the same as --date",
+      "longOptions": [
+        "--datebefore"
+      ],
+      "metavar": "DATE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "dateafter",
+      "group": "Video Selection",
+      "help": "Download only videos uploaded on or after this date. The date formats accepted are the same as --date",
+      "longOptions": [
+        "--dateafter"
+      ],
+      "metavar": "DATE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "min_views",
+      "group": "Video Selection",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--min-views"
+      ],
+      "metavar": "COUNT",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "int"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "max_views",
+      "group": "Video Selection",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--max-views"
+      ],
+      "metavar": "COUNT",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "int"
+    },
+    {
+      "action": "append",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "match_filter",
+      "group": "Video Selection",
+      "help": "Generic video filter. Any \"OUTPUT TEMPLATE\" field can be compared with a number or a string using the operators defined in \"Filtering Formats\". You can also simply specify a field to match if the field is present, use \"!field\" to check if the field is not present, and \"&\" to check multiple conditions. Use a \"\\\" to escape \"&\" or quotes if needed. If used multiple times, the filter matches if at least one of the conditions is met. E.g. --match-filters !is_live --match-filters \"like_count>?100 & description~='(?i)\\bcats \\& dogs\\b'\" matches only videos that are not live OR those that have a like count more than 100 (or the like field is not available) and also has a description that contains the phrase \"cats & dogs\" (caseless). Use \"--match-filters -\" to interactively ask whether to download each video",
+      "longOptions": [
+        "--match-filters"
+      ],
+      "metavar": "FILTER",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "match_filter",
+      "group": "Video Selection",
+      "help": "Do not use any --match-filters (default)",
+      "longOptions": [
+        "--no-match-filters"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "append",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "breaking_match_filter",
+      "group": "Video Selection",
+      "help": "Same as \"--match-filters\" but stops the download process when a video is rejected",
+      "longOptions": [
+        "--break-match-filters"
+      ],
+      "metavar": "FILTER",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "breaking_match_filter",
+      "group": "Video Selection",
+      "help": "Do not use any --break-match-filters (default)",
+      "longOptions": [
+        "--no-break-match-filters"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "noplaylist",
+      "group": "Video Selection",
+      "help": "Download only the video, if the URL refers to a video and a playlist",
+      "longOptions": [
+        "--no-playlist"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "noplaylist",
+      "group": "Video Selection",
+      "help": "Download the playlist, if the URL refers to a video and a playlist",
+      "longOptions": [
+        "--yes-playlist"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "age_limit",
+      "group": "Video Selection",
+      "help": "Download only videos suitable for the given age",
+      "longOptions": [
+        "--age-limit"
+      ],
+      "metavar": "YEARS",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "int"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "download_archive",
+      "group": "Video Selection",
+      "help": "Download only videos not listed in the archive file. Record the IDs of all downloaded videos in it",
+      "longOptions": [
+        "--download-archive"
+      ],
+      "metavar": "FILE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "download_archive",
+      "group": "Video Selection",
+      "help": "Do not use archive file (default)",
+      "longOptions": [
+        "--no-download-archive"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "max_downloads",
+      "group": "Video Selection",
+      "help": "Abort after downloading NUMBER files",
+      "longOptions": [
+        "--max-downloads"
+      ],
+      "metavar": "NUMBER",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "int"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "break_on_existing",
+      "group": "Video Selection",
+      "help": "Stop the download process when encountering a file that is in the archive supplied with the --download-archive option",
+      "longOptions": [
+        "--break-on-existing"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "break_on_existing",
+      "group": "Video Selection",
+      "help": "Do not stop the download process when encountering a file that is in the archive (default)",
+      "longOptions": [
+        "--no-break-on-existing"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "break_on_reject",
+      "group": "Video Selection",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--break-on-reject"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "break_per_url",
+      "group": "Video Selection",
+      "help": "Alters --max-downloads, --break-on-existing, --break-match-filters, and autonumber to reset per input URL",
+      "longOptions": [
+        "--break-per-input"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "break_per_url",
+      "group": "Video Selection",
+      "help": "--break-on-existing and similar options terminates the entire download queue",
+      "longOptions": [
+        "--no-break-per-input"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "skip_playlist_after_errors",
+      "group": "Video Selection",
+      "help": "Number of allowed failures until the rest of the playlist is skipped",
+      "longOptions": [
+        "--skip-playlist-after-errors"
+      ],
+      "metavar": "N",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "int"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": 1,
+      "dest": "concurrent_fragment_downloads",
+      "group": "Download Options",
+      "help": "Number of fragments of a dash/hlsnative video that should be downloaded concurrently (default is %default)",
+      "longOptions": [
+        "--concurrent-fragments"
+      ],
+      "metavar": "N",
+      "shortOptions": [
+        "-N"
+      ],
+      "takesValue": true,
+      "type": "int"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "ratelimit",
+      "group": "Download Options",
+      "help": "Maximum download rate in bytes per second, e.g. 50K or 4.2M",
+      "longOptions": [
+        "--limit-rate",
+        "--rate-limit"
+      ],
+      "metavar": "RATE",
+      "shortOptions": [
+        "-r"
+      ],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "throttledratelimit",
+      "group": "Download Options",
+      "help": "Minimum download rate in bytes per second below which throttling is assumed and the video data is re-extracted, e.g. 100K",
+      "longOptions": [
+        "--throttled-rate"
+      ],
+      "metavar": "RATE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": 10,
+      "dest": "retries",
+      "group": "Download Options",
+      "help": "Number of retries (default is %default), or \"infinite\"",
+      "longOptions": [
+        "--retries"
+      ],
+      "metavar": "RETRIES",
+      "shortOptions": [
+        "-R"
+      ],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": 3,
+      "dest": "file_access_retries",
+      "group": "Download Options",
+      "help": "Number of times to retry on file access error (default is %default), or \"infinite\"",
+      "longOptions": [
+        "--file-access-retries"
+      ],
+      "metavar": "RETRIES",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": 10,
+      "dest": "fragment_retries",
+      "group": "Download Options",
+      "help": "Number of retries for a fragment (default is %default), or \"infinite\" (DASH, hlsnative and ISM)",
+      "longOptions": [
+        "--fragment-retries"
+      ],
+      "metavar": "RETRIES",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": {},
+      "dest": "retry_sleep",
+      "group": "Download Options",
+      "help": "Time to sleep between retries in seconds (optionally) prefixed by the type of retry (http (default), fragment, file_access, extractor) to apply the sleep to. EXPR can be a number, linear=START[:END[:STEP=1]] or exp=START[:END[:BASE=2]]. This option can be used multiple times to set the sleep for the different retry types, e.g. --retry-sleep linear=1::2 --retry-sleep fragment:exp=1:20",
+      "longOptions": [
+        "--retry-sleep"
+      ],
+      "metavar": "[TYPE:]EXPR",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": true,
+      "dest": "skip_unavailable_fragments",
+      "group": "Download Options",
+      "help": "Skip unavailable fragments for DASH, hlsnative and ISM downloads (default) (Alias: --no-abort-on-unavailable-fragments)",
+      "longOptions": [
+        "--skip-unavailable-fragments",
+        "--no-abort-on-unavailable-fragments"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "skip_unavailable_fragments",
+      "group": "Download Options",
+      "help": "Abort download if a fragment is unavailable (Alias: --no-skip-unavailable-fragments)",
+      "longOptions": [
+        "--abort-on-unavailable-fragments",
+        "--no-skip-unavailable-fragments"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "keep_fragments",
+      "group": "Download Options",
+      "help": "Keep downloaded fragments on disk after downloading is finished",
+      "longOptions": [
+        "--keep-fragments"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "keep_fragments",
+      "group": "Download Options",
+      "help": "Delete downloaded fragments after downloading is finished (default)",
+      "longOptions": [
+        "--no-keep-fragments"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": "1024",
+      "dest": "buffersize",
+      "group": "Download Options",
+      "help": "Size of download buffer, e.g. 1024 or 16K (default is %default)",
+      "longOptions": [
+        "--buffer-size"
+      ],
+      "metavar": "SIZE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "noresizebuffer",
+      "group": "Download Options",
+      "help": "The buffer size is automatically resized from an initial value of --buffer-size (default)",
+      "longOptions": [
+        "--resize-buffer"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "noresizebuffer",
+      "group": "Download Options",
+      "help": "Do not automatically adjust the buffer size",
+      "longOptions": [
+        "--no-resize-buffer"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "http_chunk_size",
+      "group": "Download Options",
+      "help": "Size of a chunk for chunk-based HTTP downloading, e.g. 10485760 or 10M (default is disabled). May be useful for bypassing bandwidth throttling imposed by a webserver (experimental)",
+      "longOptions": [
+        "--http-chunk-size"
+      ],
+      "metavar": "SIZE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "test",
+      "group": "Download Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--test"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "playlist_reverse",
+      "group": "Download Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--playlist-reverse"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "playlist_reverse",
+      "group": "Download Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--no-playlist-reverse"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "playlist_random",
+      "group": "Download Options",
+      "help": "Download playlist videos in random order",
+      "longOptions": [
+        "--playlist-random"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "lazy_playlist",
+      "group": "Download Options",
+      "help": "Process entries in the playlist as they are received. This disables n_entries, --playlist-random and --playlist-reverse",
+      "longOptions": [
+        "--lazy-playlist"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "lazy_playlist",
+      "group": "Download Options",
+      "help": "Process videos in the playlist only after the entire playlist is parsed (default)",
+      "longOptions": [
+        "--no-lazy-playlist"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": null,
+      "dest": "hls_prefer_native",
+      "group": "Download Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--hls-prefer-native"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": null,
+      "dest": "hls_prefer_native",
+      "group": "Download Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--hls-prefer-ffmpeg"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": null,
+      "dest": "hls_use_mpegts",
+      "group": "Download Options",
+      "help": "Use the mpegts container for HLS videos; allowing some players to play the video while downloading, and reducing the chance of file corruption if download is interrupted. This is enabled by default for live streams",
+      "longOptions": [
+        "--hls-use-mpegts"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "hls_use_mpegts",
+      "group": "Download Options",
+      "help": "Do not use the mpegts container for HLS videos. This is default when not downloading live streams",
+      "longOptions": [
+        "--no-hls-use-mpegts"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "append",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "download_ranges",
+      "group": "Download Options",
+      "help": "Download only chapters that match the regular expression. A \"*\" prefix denotes time-range instead of chapter. Negative timestamps are calculated from the end. \"*from-url\" can be used to download between the \"start_time\" and \"end_time\" extracted from the URL. Needs ffmpeg. This option can be used multiple times to download multiple sections, e.g. --download-sections \"*10:15-inf\" --download-sections \"intro\"",
+      "longOptions": [
+        "--download-sections"
+      ],
+      "metavar": "REGEX",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": {},
+      "dest": "external_downloader",
+      "group": "Download Options",
+      "help": "Name or path of the external downloader to use (optionally) prefixed by the protocols (http, ftp, m3u8, dash, rstp, rtmp, mms) to use it for. Currently supports native, aria2c, axel, curl, ffmpeg, httpie, wget. You can use this option multiple times to set different downloaders for different protocols. E.g. --downloader aria2c --downloader \"dash,m3u8:native\" will use aria2c for http/ftp downloads, and the native downloader for dash/m3u8 downloads (Alias: --external-downloader)",
+      "longOptions": [
+        "--downloader",
+        "--external-downloader"
+      ],
+      "metavar": "[PROTO:]NAME",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": {},
+      "dest": "external_downloader_args",
+      "group": "Download Options",
+      "help": "Give these arguments to the external downloader. Specify the downloader name and the arguments separated by a colon \":\". For ffmpeg, arguments can be passed to different positions using the same syntax as --postprocessor-args. You can use this option multiple times to give different arguments to different downloaders (Alias: --external-downloader-args)",
+      "longOptions": [
+        "--downloader-args",
+        "--external-downloader-args"
+      ],
+      "metavar": "NAME:ARGS",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "batchfile",
+      "group": "Filesystem Options",
+      "help": "File containing URLs to download (\"-\" for stdin), one URL per line. Lines starting with \"#\", \";\" or \"]\" are considered as comments and ignored",
+      "longOptions": [
+        "--batch-file"
+      ],
+      "metavar": "FILE",
+      "shortOptions": [
+        "-a"
+      ],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "batchfile",
+      "group": "Filesystem Options",
+      "help": "Do not read URLs from batch file (default)",
+      "longOptions": [
+        "--no-batch-file"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "useid",
+      "group": "Filesystem Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--id"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": {},
+      "dest": "paths",
+      "group": "Filesystem Options",
+      "help": "The paths where the files should be downloaded. Specify the type of file and the path separated by a colon \":\". All the same TYPES as --output are supported. Additionally, you can also provide \"home\" (default) and \"temp\" paths. All intermediary files are first downloaded to the temp path and then the final files are moved over to the home path after download is finished. This option is ignored if --output is an absolute path",
+      "longOptions": [
+        "--paths"
+      ],
+      "metavar": "[TYPES:]PATH",
+      "shortOptions": [
+        "-P"
+      ],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": {},
+      "dest": "outtmpl",
+      "group": "Filesystem Options",
+      "help": "Output filename template; see \"OUTPUT TEMPLATE\" for details",
+      "longOptions": [
+        "--output"
+      ],
+      "metavar": "[TYPES:]TEMPLATE",
+      "shortOptions": [
+        "-o"
+      ],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": "NA",
+      "dest": "outtmpl_na_placeholder",
+      "group": "Filesystem Options",
+      "help": "Placeholder for unavailable fields in --output (default: \"%default\")",
+      "longOptions": [
+        "--output-na-placeholder"
+      ],
+      "metavar": "TEXT",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "autonumber_size",
+      "group": "Filesystem Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--autonumber-size"
+      ],
+      "metavar": "NUMBER",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "int"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": 1,
+      "dest": "autonumber_start",
+      "group": "Filesystem Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--autonumber-start"
+      ],
+      "metavar": "NUMBER",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "int"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "restrictfilenames",
+      "group": "Filesystem Options",
+      "help": "Restrict filenames to only ASCII characters, and avoid \"&\" and spaces in filenames",
+      "longOptions": [
+        "--restrict-filenames"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "restrictfilenames",
+      "group": "Filesystem Options",
+      "help": "Allow Unicode characters, \"&\" and spaces in filenames (default)",
+      "longOptions": [
+        "--no-restrict-filenames"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": null,
+      "dest": "windowsfilenames",
+      "group": "Filesystem Options",
+      "help": "Force filenames to be Windows-compatible",
+      "longOptions": [
+        "--windows-filenames"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "windowsfilenames",
+      "group": "Filesystem Options",
+      "help": "Sanitize filenames only minimally",
+      "longOptions": [
+        "--no-windows-filenames"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": 0,
+      "dest": "trim_file_name",
+      "group": "Filesystem Options",
+      "help": "Limit the filename length (excluding extension) to the specified number of characters",
+      "longOptions": [
+        "--trim-filenames",
+        "--trim-file-names"
+      ],
+      "metavar": "LENGTH",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "int"
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": null,
+      "dest": "overwrites",
+      "group": "Filesystem Options",
+      "help": "Do not overwrite any files",
+      "longOptions": [
+        "--no-overwrites"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-w"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "overwrites",
+      "group": "Filesystem Options",
+      "help": "Overwrite all video and metadata files. This option includes --no-continue",
+      "longOptions": [
+        "--force-overwrites",
+        "--yes-overwrites"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "overwrites",
+      "group": "Filesystem Options",
+      "help": "Do not overwrite the video, but overwrite related files (default)",
+      "longOptions": [
+        "--no-force-overwrites"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": true,
+      "dest": "continue_dl",
+      "group": "Filesystem Options",
+      "help": "Resume partially downloaded files/fragments (default)",
+      "longOptions": [
+        "--continue"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-c"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "continue_dl",
+      "group": "Filesystem Options",
+      "help": "Do not resume partially downloaded fragments. If the file is not fragmented, restart download of the entire file",
+      "longOptions": [
+        "--no-continue"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": false,
+      "dest": "nopart",
+      "group": "Filesystem Options",
+      "help": "Use .part files instead of writing directly into output file (default)",
+      "longOptions": [
+        "--part"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "nopart",
+      "group": "Filesystem Options",
+      "help": "Do not use .part files - write directly into output file",
+      "longOptions": [
+        "--no-part"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": null,
+      "dest": "updatetime",
+      "group": "Filesystem Options",
+      "help": "Use the Last-modified header to set the file modification time",
+      "longOptions": [
+        "--mtime"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "updatetime",
+      "group": "Filesystem Options",
+      "help": "Do not use the Last-modified header to set the file modification time (default)",
+      "longOptions": [
+        "--no-mtime"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "writedescription",
+      "group": "Filesystem Options",
+      "help": "Write video description to a .description file",
+      "longOptions": [
+        "--write-description"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "writedescription",
+      "group": "Filesystem Options",
+      "help": "Do not write video description (default)",
+      "longOptions": [
+        "--no-write-description"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": null,
+      "dest": "writeinfojson",
+      "group": "Filesystem Options",
+      "help": "Write video metadata to a .info.json file (this may contain personal information)",
+      "longOptions": [
+        "--write-info-json"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "writeinfojson",
+      "group": "Filesystem Options",
+      "help": "Do not write video metadata (default)",
+      "longOptions": [
+        "--no-write-info-json"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": null,
+      "dest": "allow_playlist_files",
+      "group": "Filesystem Options",
+      "help": "Write playlist metadata in addition to the video metadata when using --write-info-json, --write-description etc. (default)",
+      "longOptions": [
+        "--write-playlist-metafiles"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "allow_playlist_files",
+      "group": "Filesystem Options",
+      "help": "Do not write playlist metadata when using --write-info-json, --write-description etc.",
+      "longOptions": [
+        "--no-write-playlist-metafiles"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": null,
+      "dest": "clean_infojson",
+      "group": "Filesystem Options",
+      "help": "Remove some internal metadata such as filenames from the infojson (default)",
+      "longOptions": [
+        "--clean-info-json",
+        "--clean-infojson"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "clean_infojson",
+      "group": "Filesystem Options",
+      "help": "Write all fields to the infojson",
+      "longOptions": [
+        "--no-clean-info-json",
+        "--no-clean-infojson"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "getcomments",
+      "group": "Filesystem Options",
+      "help": "Retrieve video comments to be placed in the infojson. The comments are fetched even without this option if the extraction is known to be quick (Alias: --get-comments)",
+      "longOptions": [
+        "--write-comments",
+        "--get-comments"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "getcomments",
+      "group": "Filesystem Options",
+      "help": "Do not retrieve video comments unless the extraction is known to be quick (Alias: --no-get-comments)",
+      "longOptions": [
+        "--no-write-comments",
+        "--no-get-comments"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "load_info_filename",
+      "group": "Filesystem Options",
+      "help": "JSON file containing the video information (created with the \"--write-info-json\" option)",
+      "longOptions": [
+        "--load-info-json"
+      ],
+      "metavar": "FILE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "cookiefile",
+      "group": "Filesystem Options",
+      "help": "Netscape formatted file to read cookies from and dump cookie jar in",
+      "longOptions": [
+        "--cookies"
+      ],
+      "metavar": "FILE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "cookiefile",
+      "group": "Filesystem Options",
+      "help": "Do not read/dump cookies from/to file (default)",
+      "longOptions": [
+        "--no-cookies"
+      ],
+      "metavar": "FILE",
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "cookiesfrombrowser",
+      "group": "Filesystem Options",
+      "help": "The name of the browser to load cookies from. Currently supported browsers are: brave, chrome, chromium, edge, firefox, opera, safari, vivaldi, whale. Optionally, the KEYRING used for decrypting Chromium cookies on Linux, the name/path of the PROFILE to load cookies from, and the CONTAINER name (if Firefox) (\"none\" for no container) can be given with their respective separators. By default, all containers of the most recently accessed profile are used. Currently supported keyrings are: basictext, gnomekeyring, kwallet, kwallet5, kwallet6",
+      "longOptions": [
+        "--cookies-from-browser"
+      ],
+      "metavar": "BROWSER[+KEYRING][:PROFILE][::CONTAINER]",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "cookiesfrombrowser",
+      "group": "Filesystem Options",
+      "help": "Do not load cookies from browser (default)",
+      "longOptions": [
+        "--no-cookies-from-browser"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "cachedir",
+      "group": "Filesystem Options",
+      "help": "Location in the filesystem where yt-dlp can store some downloaded information (such as client ids and signatures) permanently. By default ${XDG_CACHE_HOME}/yt-dlp",
+      "longOptions": [
+        "--cache-dir"
+      ],
+      "metavar": "DIR",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "cachedir",
+      "group": "Filesystem Options",
+      "help": "Disable filesystem caching",
+      "longOptions": [
+        "--no-cache-dir"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "rm_cachedir",
+      "group": "Filesystem Options",
+      "help": "Delete all filesystem cache files",
+      "longOptions": [
+        "--rm-cache-dir"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": false,
+      "dest": "writethumbnail",
+      "group": "Thumbnail Options",
+      "help": "Write thumbnail image to disk",
+      "longOptions": [
+        "--write-thumbnail"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "writethumbnail",
+      "group": "Thumbnail Options",
+      "help": "Do not write thumbnail image to disk (default)",
+      "longOptions": [
+        "--no-write-thumbnail"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "writethumbnail",
+      "group": "Thumbnail Options",
+      "help": "Write all thumbnail image formats to disk",
+      "longOptions": [
+        "--write-all-thumbnails"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "list_thumbnails",
+      "group": "Thumbnail Options",
+      "help": "List available thumbnails of each video. Simulate unless --no-simulate is used",
+      "longOptions": [
+        "--list-thumbnails"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "writelink",
+      "group": "Internet Shortcut Options",
+      "help": "Write an internet shortcut file, depending on the current platform (.url, .webloc or .desktop). The URL may be cached by the OS",
+      "longOptions": [
+        "--write-link"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "writeurllink",
+      "group": "Internet Shortcut Options",
+      "help": "Write a .url Windows internet shortcut. The OS caches the URL based on the file path",
+      "longOptions": [
+        "--write-url-link"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "writewebloclink",
+      "group": "Internet Shortcut Options",
+      "help": "Write a .webloc macOS internet shortcut",
+      "longOptions": [
+        "--write-webloc-link"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "writedesktoplink",
+      "group": "Internet Shortcut Options",
+      "help": "Write a .desktop Linux internet shortcut",
+      "longOptions": [
+        "--write-desktop-link"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": null,
+      "dest": "quiet",
+      "group": "Verbosity and Simulation Options",
+      "help": "Activate quiet mode. If used with --verbose, print the log to stderr",
+      "longOptions": [
+        "--quiet"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-q"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "quiet",
+      "group": "Verbosity and Simulation Options",
+      "help": "Deactivate quiet mode. (Default)",
+      "longOptions": [
+        "--no-quiet"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "no_warnings",
+      "group": "Verbosity and Simulation Options",
+      "help": "Ignore warnings",
+      "longOptions": [
+        "--no-warnings"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": null,
+      "dest": "simulate",
+      "group": "Verbosity and Simulation Options",
+      "help": "Do not download the video and do not write anything to disk",
+      "longOptions": [
+        "--simulate"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-s"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "simulate",
+      "group": "Verbosity and Simulation Options",
+      "help": "Download the video even if printing/listing options are used",
+      "longOptions": [
+        "--no-simulate"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "ignore_no_formats_error",
+      "group": "Verbosity and Simulation Options",
+      "help": "Ignore \"No video formats\" error. Useful for extracting metadata even if the videos are not actually available for download (experimental)",
+      "longOptions": [
+        "--ignore-no-formats-error"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "ignore_no_formats_error",
+      "group": "Verbosity and Simulation Options",
+      "help": "Throw error when no downloadable video formats are found (default)",
+      "longOptions": [
+        "--no-ignore-no-formats-error"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "skip_download",
+      "group": "Verbosity and Simulation Options",
+      "help": "Do not download the video but write all related files (Alias: --no-download)",
+      "longOptions": [
+        "--skip-download",
+        "--no-download"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": {},
+      "dest": "forceprint",
+      "group": "Verbosity and Simulation Options",
+      "help": "Field name or output template to print to screen, optionally prefixed with when to print it, separated by a \":\". Supported values of \"WHEN\" are the same as that of --use-postprocessor (default: video). Implies --quiet. Implies --simulate unless --no-simulate or later stages of WHEN are used. This option can be used multiple times",
+      "longOptions": [
+        "--print"
+      ],
+      "metavar": "[WHEN:]TEMPLATE",
+      "shortOptions": [
+        "-O"
+      ],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": {},
+      "dest": "print_to_file",
+      "group": "Verbosity and Simulation Options",
+      "help": "Append given template to the file. The values of WHEN and TEMPLATE are the same as that of --print. FILE uses the same syntax as the output template. This option can be used multiple times",
+      "longOptions": [
+        "--print-to-file"
+      ],
+      "metavar": "[WHEN:]TEMPLATE FILE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "geturl",
+      "group": "Verbosity and Simulation Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--get-url"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-g"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "gettitle",
+      "group": "Verbosity and Simulation Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--get-title"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-e"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "getid",
+      "group": "Verbosity and Simulation Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--get-id"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "getthumbnail",
+      "group": "Verbosity and Simulation Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--get-thumbnail"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "getdescription",
+      "group": "Verbosity and Simulation Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--get-description"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "getduration",
+      "group": "Verbosity and Simulation Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--get-duration"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "getfilename",
+      "group": "Verbosity and Simulation Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--get-filename"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "getformat",
+      "group": "Verbosity and Simulation Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--get-format"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "dumpjson",
+      "group": "Verbosity and Simulation Options",
+      "help": "Quiet, but print JSON information for each video. Simulate unless --no-simulate is used. See \"OUTPUT TEMPLATE\" for a description of available keys",
+      "longOptions": [
+        "--dump-json"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-j"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "dump_single_json",
+      "group": "Verbosity and Simulation Options",
+      "help": "Quiet, but print JSON information for each URL or infojson passed. Simulate unless --no-simulate is used. If the URL refers to a playlist, the whole playlist information is dumped in a single line",
+      "longOptions": [
+        "--dump-single-json"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-J"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "print_json",
+      "group": "Verbosity and Simulation Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--print-json"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "force_write_download_archive",
+      "group": "Verbosity and Simulation Options",
+      "help": "Force download archive entries to be written as far as no errors occur, even if -s or another simulation option is used (Alias: --force-download-archive)",
+      "longOptions": [
+        "--force-write-archive",
+        "--force-write-download-archive",
+        "--force-download-archive"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "progress_with_newline",
+      "group": "Verbosity and Simulation Options",
+      "help": "Output progress bar as new lines",
+      "longOptions": [
+        "--newline"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": null,
+      "dest": "noprogress",
+      "group": "Verbosity and Simulation Options",
+      "help": "Do not print progress bar",
+      "longOptions": [
+        "--no-progress"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "noprogress",
+      "group": "Verbosity and Simulation Options",
+      "help": "Show progress bar, even if in quiet mode",
+      "longOptions": [
+        "--progress"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "consoletitle",
+      "group": "Verbosity and Simulation Options",
+      "help": "Display progress in console titlebar",
+      "longOptions": [
+        "--console-title"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": {},
+      "dest": "progress_template",
+      "group": "Verbosity and Simulation Options",
+      "help": "Template for progress outputs, optionally prefixed with one of \"download:\" (default), \"download-title:\" (the console title), \"postprocess:\", or \"postprocess-title:\". The video's fields are accessible under the \"info\" key and the progress attributes are accessible under \"progress\" key. E.g. --console-title --progress-template \"download-title:%(info.id)s-%(progress.eta)s\"",
+      "longOptions": [
+        "--progress-template"
+      ],
+      "metavar": "[TYPES:]TEMPLATE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": 0,
+      "dest": "progress_delta",
+      "group": "Verbosity and Simulation Options",
+      "help": "Time between progress output (default: 0)",
+      "longOptions": [
+        "--progress-delta"
+      ],
+      "metavar": "SECONDS",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "float"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "verbose",
+      "group": "Verbosity and Simulation Options",
+      "help": "Print various debugging information",
+      "longOptions": [
+        "--verbose"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-v"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "dump_intermediate_pages",
+      "group": "Verbosity and Simulation Options",
+      "help": "Print downloaded pages encoded using base64 to debug problems (very verbose)",
+      "longOptions": [
+        "--dump-pages"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "write_pages",
+      "group": "Verbosity and Simulation Options",
+      "help": "Write downloaded intermediary pages to files in the current directory to debug problems",
+      "longOptions": [
+        "--write-pages"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "load_pages",
+      "group": "Verbosity and Simulation Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--load-pages"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "debug_printtraffic",
+      "group": "Verbosity and Simulation Options",
+      "help": "Display sent and read HTTP traffic",
+      "longOptions": [
+        "--print-traffic"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "encoding",
+      "group": "Workarounds",
+      "help": "Force the specified encoding (experimental)",
+      "longOptions": [
+        "--encoding"
+      ],
+      "metavar": "ENCODING",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "legacy_server_connect",
+      "group": "Workarounds",
+      "help": "Explicitly allow HTTPS connection to servers that do not support RFC 5746 secure renegotiation",
+      "longOptions": [
+        "--legacy-server-connect"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "no_check_certificate",
+      "group": "Workarounds",
+      "help": "Suppress HTTPS certificate validation",
+      "longOptions": [
+        "--no-check-certificates"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "prefer_insecure",
+      "group": "Workarounds",
+      "help": "Use an unencrypted connection to retrieve information about the video",
+      "longOptions": [
+        "--prefer-insecure",
+        "--prefer-unsecure"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "user_agent",
+      "group": "Workarounds",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--user-agent"
+      ],
+      "metavar": "UA",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "referer",
+      "group": "Workarounds",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--referer"
+      ],
+      "metavar": "URL",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": {},
+      "dest": "headers",
+      "group": "Workarounds",
+      "help": "Specify a custom HTTP header and its value, separated by a colon \":\". You can use this option multiple times",
+      "longOptions": [
+        "--add-headers"
+      ],
+      "metavar": "FIELD:VALUE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "bidi_workaround",
+      "group": "Workarounds",
+      "help": "Work around terminals that lack bidirectional text support. Requires bidiv or fribidi executable in PATH",
+      "longOptions": [
+        "--bidi-workaround"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "sleep_interval_requests",
+      "group": "Workarounds",
+      "help": "Number of seconds to sleep between requests during data extraction",
+      "longOptions": [
+        "--sleep-requests"
+      ],
+      "metavar": "SECONDS",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "float"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "sleep_interval",
+      "group": "Workarounds",
+      "help": "Number of seconds to sleep before each download. This is the minimum time to sleep when used along with --max-sleep-interval (Alias: --min-sleep-interval)",
+      "longOptions": [
+        "--sleep-interval",
+        "--min-sleep-interval"
+      ],
+      "metavar": "SECONDS",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "float"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "max_sleep_interval",
+      "group": "Workarounds",
+      "help": "Maximum number of seconds to sleep. Can only be used along with --min-sleep-interval",
+      "longOptions": [
+        "--max-sleep-interval"
+      ],
+      "metavar": "SECONDS",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "float"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": 0,
+      "dest": "sleep_interval_subtitles",
+      "group": "Workarounds",
+      "help": "Number of seconds to sleep before each subtitle download",
+      "longOptions": [
+        "--sleep-subtitles"
+      ],
+      "metavar": "SECONDS",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "float"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "format",
+      "group": "Video Format Options",
+      "help": "Video format code, see \"FORMAT SELECTION\" for more details",
+      "longOptions": [
+        "--format"
+      ],
+      "metavar": "FORMAT",
+      "shortOptions": [
+        "-f"
+      ],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [],
+      "dest": "format_sort",
+      "group": "Video Format Options",
+      "help": "Sort the formats by the fields given, see \"Sorting Formats\" for more details",
+      "longOptions": [
+        "--format-sort"
+      ],
+      "metavar": "SORTORDER",
+      "shortOptions": [
+        "-S"
+      ],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "format_sort",
+      "group": "Video Format Options",
+      "help": "Disregard previous user specified sort order and reset to the default",
+      "longOptions": [
+        "--format-sort-reset"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "format_sort_force",
+      "group": "Video Format Options",
+      "help": "Force user specified sort order to have precedence over all fields, see \"Sorting Formats\" for more details (Alias: --S-force)",
+      "longOptions": [
+        "--format-sort-force",
+        "--S-force"
+      ],
+      "metavar": "FORMAT",
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": false,
+      "dest": "format_sort_force",
+      "group": "Video Format Options",
+      "help": "Some fields have precedence over the user specified sort order (default)",
+      "longOptions": [
+        "--no-format-sort-force"
+      ],
+      "metavar": "FORMAT",
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": null,
+      "dest": "allow_multiple_video_streams",
+      "group": "Video Format Options",
+      "help": "Allow multiple video streams to be merged into a single file",
+      "longOptions": [
+        "--video-multistreams"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "allow_multiple_video_streams",
+      "group": "Video Format Options",
+      "help": "Only one video stream is downloaded for each output file (default)",
+      "longOptions": [
+        "--no-video-multistreams"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": null,
+      "dest": "allow_multiple_audio_streams",
+      "group": "Video Format Options",
+      "help": "Allow multiple audio streams to be merged into a single file",
+      "longOptions": [
+        "--audio-multistreams"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "allow_multiple_audio_streams",
+      "group": "Video Format Options",
+      "help": "Only one audio stream is downloaded for each output file (default)",
+      "longOptions": [
+        "--no-audio-multistreams"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "format",
+      "group": "Video Format Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--all-formats"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "prefer_free_formats",
+      "group": "Video Format Options",
+      "help": "Prefer video formats with free containers over non-free ones of the same quality. Use with \"-S ext\" to strictly prefer free containers irrespective of quality",
+      "longOptions": [
+        "--prefer-free-formats"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": false,
+      "dest": "prefer_free_formats",
+      "group": "Video Format Options",
+      "help": "Don't give any special preference to free containers (default)",
+      "longOptions": [
+        "--no-prefer-free-formats"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": null,
+      "dest": "check_formats",
+      "group": "Video Format Options",
+      "help": "Make sure formats are selected only from those that are actually downloadable",
+      "longOptions": [
+        "--check-formats"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "check_formats",
+      "group": "Video Format Options",
+      "help": "Check all formats for whether they are actually downloadable",
+      "longOptions": [
+        "--check-all-formats"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "check_formats",
+      "group": "Video Format Options",
+      "help": "Do not check that the formats are actually downloadable",
+      "longOptions": [
+        "--no-check-formats"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "listformats",
+      "group": "Video Format Options",
+      "help": "List available formats of each video. Simulate unless --no-simulate is used",
+      "longOptions": [
+        "--list-formats"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-F"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": true,
+      "dest": "listformats_table",
+      "group": "Video Format Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--list-formats-as-table"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "listformats_table",
+      "group": "Video Format Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--list-formats-old",
+        "--no-list-formats-as-table"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "merge_output_format",
+      "group": "Video Format Options",
+      "help": "Containers that may be used when merging formats, separated by \"/\", e.g. \"mp4/mkv\". Ignored if no merge is required. (currently supported: avi, flv, mkv, mov, mp4, webm)",
+      "longOptions": [
+        "--merge-output-format"
+      ],
+      "metavar": "FORMAT",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "allow_unplayable_formats",
+      "group": "Video Format Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--allow-unplayable-formats"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "allow_unplayable_formats",
+      "group": "Video Format Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--no-allow-unplayable-formats"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "writesubtitles",
+      "group": "Subtitle Options",
+      "help": "Write subtitle file",
+      "longOptions": [
+        "--write-subs",
+        "--write-srt"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "writesubtitles",
+      "group": "Subtitle Options",
+      "help": "Do not write subtitle file (default)",
+      "longOptions": [
+        "--no-write-subs",
+        "--no-write-srt"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "writeautomaticsub",
+      "group": "Subtitle Options",
+      "help": "Write automatically generated subtitle file (Alias: --write-automatic-subs)",
+      "longOptions": [
+        "--write-auto-subs",
+        "--write-automatic-subs"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": false,
+      "dest": "writeautomaticsub",
+      "group": "Subtitle Options",
+      "help": "Do not write auto-generated subtitles (default) (Alias: --no-write-automatic-subs)",
+      "longOptions": [
+        "--no-write-auto-subs",
+        "--no-write-automatic-subs"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "allsubtitles",
+      "group": "Subtitle Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--all-subs"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "listsubtitles",
+      "group": "Subtitle Options",
+      "help": "List available subtitles of each video. Simulate unless --no-simulate is used",
+      "longOptions": [
+        "--list-subs"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": "best",
+      "dest": "subtitlesformat",
+      "group": "Subtitle Options",
+      "help": "Subtitle format; accepts formats preference separated by \"/\", e.g. \"srt\" or \"ass/srt/best\"",
+      "longOptions": [
+        "--sub-format"
+      ],
+      "metavar": "FORMAT",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [],
+      "dest": "subtitleslangs",
+      "group": "Subtitle Options",
+      "help": "Languages of the subtitles to download (can be regex) or \"all\" separated by commas, e.g. --sub-langs \"en.*,ja\" (where \"en.*\" is a regex pattern that matches \"en\" followed by 0 or more of any character). You can prefix the language code with a \"-\" to exclude it from the requested languages, e.g. --sub-langs all,-live_chat. Use --list-subs for a list of available language tags",
+      "longOptions": [
+        "--sub-langs",
+        "--srt-langs"
+      ],
+      "metavar": "LANGS",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "username",
+      "group": "Authentication Options",
+      "help": "Login with this account ID",
+      "longOptions": [
+        "--username"
+      ],
+      "metavar": "USERNAME",
+      "shortOptions": [
+        "-u"
+      ],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "password",
+      "group": "Authentication Options",
+      "help": "Account password. If this option is left out, yt-dlp will ask interactively",
+      "longOptions": [
+        "--password"
+      ],
+      "metavar": "PASSWORD",
+      "shortOptions": [
+        "-p"
+      ],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "twofactor",
+      "group": "Authentication Options",
+      "help": "Two-factor authentication code",
+      "longOptions": [
+        "--twofactor"
+      ],
+      "metavar": "TWOFACTOR",
+      "shortOptions": [
+        "-2"
+      ],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "usenetrc",
+      "group": "Authentication Options",
+      "help": "Use .netrc authentication data",
+      "longOptions": [
+        "--netrc"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-n"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "netrc_location",
+      "group": "Authentication Options",
+      "help": "Location of .netrc authentication data; either the path or its containing directory. Defaults to ~/.netrc",
+      "longOptions": [
+        "--netrc-location"
+      ],
+      "metavar": "PATH",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "netrc_cmd",
+      "group": "Authentication Options",
+      "help": "Command to execute to get the credentials for an extractor.",
+      "longOptions": [
+        "--netrc-cmd"
+      ],
+      "metavar": "NETRC_CMD",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "videopassword",
+      "group": "Authentication Options",
+      "help": "Video-specific password",
+      "longOptions": [
+        "--video-password"
+      ],
+      "metavar": "PASSWORD",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "ap_mso",
+      "group": "Authentication Options",
+      "help": "Adobe Pass multiple-system operator (TV provider) identifier, use --ap-list-mso for a list of available MSOs",
+      "longOptions": [
+        "--ap-mso"
+      ],
+      "metavar": "MSO",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "ap_username",
+      "group": "Authentication Options",
+      "help": "Multiple-system operator account login",
+      "longOptions": [
+        "--ap-username"
+      ],
+      "metavar": "USERNAME",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "ap_password",
+      "group": "Authentication Options",
+      "help": "Multiple-system operator account password. If this option is left out, yt-dlp will ask interactively",
+      "longOptions": [
+        "--ap-password"
+      ],
+      "metavar": "PASSWORD",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "ap_list_mso",
+      "group": "Authentication Options",
+      "help": "List all supported multiple-system operators",
+      "longOptions": [
+        "--ap-list-mso"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "client_certificate",
+      "group": "Authentication Options",
+      "help": "Path to client certificate file in PEM format. May include the private key",
+      "longOptions": [
+        "--client-certificate"
+      ],
+      "metavar": "CERTFILE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "client_certificate_key",
+      "group": "Authentication Options",
+      "help": "Path to private key file for client certificate",
+      "longOptions": [
+        "--client-certificate-key"
+      ],
+      "metavar": "KEYFILE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "client_certificate_password",
+      "group": "Authentication Options",
+      "help": "Password for client certificate private key, if encrypted. If not provided, and the key is encrypted, yt-dlp will ask interactively",
+      "longOptions": [
+        "--client-certificate-password"
+      ],
+      "metavar": "PASSWORD",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "extractaudio",
+      "group": "Post-Processing Options",
+      "help": "Convert video files to audio-only files (requires ffmpeg and ffprobe)",
+      "longOptions": [
+        "--extract-audio"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-x"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": "best",
+      "dest": "audioformat",
+      "group": "Post-Processing Options",
+      "help": "Format to convert the audio to when -x is used. (currently supported: best (default), aac, alac, flac, m4a, mp3, opus, vorbis, wav). You can specify multiple rules using similar syntax as --remux-video",
+      "longOptions": [
+        "--audio-format"
+      ],
+      "metavar": "FORMAT",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": "5",
+      "dest": "audioquality",
+      "group": "Post-Processing Options",
+      "help": "Specify ffmpeg audio quality to use when converting the audio with -x. Insert a value between 0 (best) and 10 (worst) for VBR or a specific bitrate like 128K (default %default)",
+      "longOptions": [
+        "--audio-quality"
+      ],
+      "metavar": "QUALITY",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "remuxvideo",
+      "group": "Post-Processing Options",
+      "help": "Remux the video into another container if necessary (currently supported: avi, flv, gif, mkv, mov, mp4, webm, aac, aiff, alac, flac, m4a, mka, mp3, ogg, opus, vorbis, wav). If the target container does not support the video/audio codec, remuxing will fail. You can specify multiple rules; e.g. \"aac>m4a/mov>mp4/mkv\" will remux aac to m4a, mov to mp4 and anything else to mkv",
+      "longOptions": [
+        "--remux-video"
+      ],
+      "metavar": "FORMAT",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "recodevideo",
+      "group": "Post-Processing Options",
+      "help": "Re-encode the video into another format if necessary. The syntax and supported formats are the same as --remux-video",
+      "longOptions": [
+        "--recode-video"
+      ],
+      "metavar": "FORMAT",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": {},
+      "dest": "postprocessor_args",
+      "group": "Post-Processing Options",
+      "help": "Give these arguments to the postprocessors. Specify the postprocessor/executable name and the arguments separated by a colon \":\" to give the argument to the specified postprocessor/executable. Supported PP are: Merger, ModifyChapters, SplitChapters, ExtractAudio, VideoRemuxer, VideoConvertor, Metadata, EmbedSubtitle, EmbedThumbnail, SubtitlesConvertor, ThumbnailsConvertor, FixupStretched, FixupM4a, FixupM3u8, FixupTimestamp and FixupDuration. The supported executables are: AtomicParsley, FFmpeg and FFprobe. You can also specify \"PP+EXE:ARGS\" to give the arguments to the specified executable only when being used by the specified postprocessor. Additionally, for ffmpeg/ffprobe, \"_i\"/\"_o\" can be appended to the prefix optionally followed by a number to pass the argument before the specified input/output file, e.g. --ppa \"Merger+ffmpeg_i1:-v quiet\". You can use this option multiple times to give different arguments to different postprocessors. (Alias: --ppa)",
+      "longOptions": [
+        "--postprocessor-args",
+        "--ppa"
+      ],
+      "metavar": "NAME:ARGS",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "keepvideo",
+      "group": "Post-Processing Options",
+      "help": "Keep the intermediate video file on disk after post-processing",
+      "longOptions": [
+        "--keep-video"
+      ],
+      "metavar": null,
+      "shortOptions": [
+        "-k"
+      ],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "keepvideo",
+      "group": "Post-Processing Options",
+      "help": "Delete the intermediate video file after post-processing (default)",
+      "longOptions": [
+        "--no-keep-video"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "nopostoverwrites",
+      "group": "Post-Processing Options",
+      "help": "Overwrite post-processed files (default)",
+      "longOptions": [
+        "--post-overwrites"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "nopostoverwrites",
+      "group": "Post-Processing Options",
+      "help": "Do not overwrite post-processed files",
+      "longOptions": [
+        "--no-post-overwrites"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "embedsubtitles",
+      "group": "Post-Processing Options",
+      "help": "Embed subtitles in the video (only for mp4, webm and mkv videos)",
+      "longOptions": [
+        "--embed-subs"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "embedsubtitles",
+      "group": "Post-Processing Options",
+      "help": "Do not embed subtitles (default)",
+      "longOptions": [
+        "--no-embed-subs"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "embedthumbnail",
+      "group": "Post-Processing Options",
+      "help": "Embed thumbnail in the video as cover art",
+      "longOptions": [
+        "--embed-thumbnail"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "embedthumbnail",
+      "group": "Post-Processing Options",
+      "help": "Do not embed thumbnail (default)",
+      "longOptions": [
+        "--no-embed-thumbnail"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "addmetadata",
+      "group": "Post-Processing Options",
+      "help": "Embed metadata to the video file. Also embeds chapters/infojson if present unless --no-embed-chapters/--no-embed-info-json are used (Alias: --add-metadata)",
+      "longOptions": [
+        "--embed-metadata",
+        "--add-metadata"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "addmetadata",
+      "group": "Post-Processing Options",
+      "help": "Do not add metadata to file (default) (Alias: --no-add-metadata)",
+      "longOptions": [
+        "--no-embed-metadata",
+        "--no-add-metadata"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": null,
+      "dest": "addchapters",
+      "group": "Post-Processing Options",
+      "help": "Add chapter markers to the video file (Alias: --add-chapters)",
+      "longOptions": [
+        "--embed-chapters",
+        "--add-chapters"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "addchapters",
+      "group": "Post-Processing Options",
+      "help": "Do not add chapter markers (default) (Alias: --no-add-chapters)",
+      "longOptions": [
+        "--no-embed-chapters",
+        "--no-add-chapters"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": null,
+      "dest": "embed_infojson",
+      "group": "Post-Processing Options",
+      "help": "Embed the infojson as an attachment to mkv/mka video files",
+      "longOptions": [
+        "--embed-info-json"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "embed_infojson",
+      "group": "Post-Processing Options",
+      "help": "Do not embed the infojson as an attachment to the video file",
+      "longOptions": [
+        "--no-embed-info-json"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "metafromtitle",
+      "group": "Post-Processing Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--metadata-from-title"
+      ],
+      "metavar": "FORMAT",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": {},
+      "dest": "parse_metadata",
+      "group": "Post-Processing Options",
+      "help": "Parse additional metadata like title/artist from other fields; see \"MODIFYING METADATA\" for details. Supported values of \"WHEN\" are the same as that of --use-postprocessor (default: pre_process)",
+      "longOptions": [
+        "--parse-metadata"
+      ],
+      "metavar": "[WHEN:]FROM:TO",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": {},
+      "dest": "parse_metadata",
+      "group": "Post-Processing Options",
+      "help": "Replace text in a metadata field using the given regex. This option can be used multiple times. Supported values of \"WHEN\" are the same as that of --use-postprocessor (default: pre_process)",
+      "longOptions": [
+        "--replace-in-metadata"
+      ],
+      "metavar": "[WHEN:]FIELDS REGEX REPLACE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "xattrs",
+      "group": "Post-Processing Options",
+      "help": "Write metadata to the video file's xattrs (using Dublin Core and XDG standards)",
+      "longOptions": [
+        "--xattrs",
+        "--xattr"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [
+        "never",
+        "always",
+        "multi_video"
+      ],
+      "default": "multi_video",
+      "dest": "concat_playlist",
+      "group": "Post-Processing Options",
+      "help": "Concatenate videos in a playlist. One of \"never\", \"always\", or \"multi_video\" (default; only when the videos form a single show). All the video files must have the same codecs and number of streams to be concatenable. The \"pl_video:\" prefix can be used with \"--paths\" and \"--output\" to set the output filename for the concatenated files. See \"OUTPUT TEMPLATE\" for details",
+      "longOptions": [
+        "--concat-playlist"
+      ],
+      "metavar": "POLICY",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "choice"
+    },
+    {
+      "action": "store",
+      "choices": [
+        "never",
+        "ignore",
+        "warn",
+        "detect_or_warn",
+        "force"
+      ],
+      "default": null,
+      "dest": "fixup",
+      "group": "Post-Processing Options",
+      "help": "Automatically correct known faults of the file. One of never (do nothing), warn (only emit a warning), detect_or_warn (the default; fix the file if we can, warn otherwise), force (try fixing even if the file already exists)",
+      "longOptions": [
+        "--fixup"
+      ],
+      "metavar": "POLICY",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "choice"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "ffmpeg_location",
+      "group": "Post-Processing Options",
+      "help": "Location of the ffmpeg binary; either the path to the binary or its containing directory",
+      "longOptions": [
+        "--ffmpeg-location"
+      ],
+      "metavar": "PATH",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": {},
+      "dest": "exec_cmd",
+      "group": "Post-Processing Options",
+      "help": "Execute a command, optionally prefixed with when to execute it, separated by a \":\". Supported values of \"WHEN\" are the same as that of --use-postprocessor (default: after_move). The same syntax as the output template can be used to pass any field as arguments to the command. If no fields are passed, %(filepath,_filename|)q is appended to the end of the command. This option can be used multiple times",
+      "longOptions": [
+        "--exec"
+      ],
+      "metavar": "[WHEN:]CMD",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "exec_cmd",
+      "group": "Post-Processing Options",
+      "help": "Remove any previously defined --exec",
+      "longOptions": [
+        "--no-exec"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "append",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "exec_before_dl_cmd",
+      "group": "Post-Processing Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--exec-before-download"
+      ],
+      "metavar": "CMD",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "exec_before_dl_cmd",
+      "group": "Post-Processing Options",
+      "help": "SUPPRESSHELP",
+      "longOptions": [
+        "--no-exec-before-download"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "convertsubtitles",
+      "group": "Post-Processing Options",
+      "help": "Convert the subtitles to another format (currently supported: ass, lrc, srt, vtt). Use \"--convert-subs none\" to disable conversion (default) (Alias: --convert-subtitles)",
+      "longOptions": [
+        "--convert-subs",
+        "--convert-sub",
+        "--convert-subtitles"
+      ],
+      "metavar": "FORMAT",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": null,
+      "dest": "convertthumbnails",
+      "group": "Post-Processing Options",
+      "help": "Convert the thumbnails to another format (currently supported: jpg, png, webp). You can specify multiple rules using similar syntax as \"--remux-video\". Use \"--convert-thumbnails none\" to disable conversion (default)",
+      "longOptions": [
+        "--convert-thumbnails"
+      ],
+      "metavar": "FORMAT",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "split_chapters",
+      "group": "Post-Processing Options",
+      "help": "Split video into multiple files based on internal chapters. The \"chapter:\" prefix can be used with \"--paths\" and \"--output\" to set the output filename for the split files. See \"OUTPUT TEMPLATE\" for details",
+      "longOptions": [
+        "--split-chapters",
+        "--split-tracks"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "split_chapters",
+      "group": "Post-Processing Options",
+      "help": "Do not split video based on chapters (default)",
+      "longOptions": [
+        "--no-split-chapters",
+        "--no-split-tracks"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "append",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "remove_chapters",
+      "group": "Post-Processing Options",
+      "help": "Remove chapters whose title matches the given regular expression. The syntax is the same as --download-sections. This option can be used multiple times",
+      "longOptions": [
+        "--remove-chapters"
+      ],
+      "metavar": "REGEX",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_const",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "remove_chapters",
+      "group": "Post-Processing Options",
+      "help": "Do not remove any chapters from the file (default)",
+      "longOptions": [
+        "--no-remove-chapters"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "force_keyframes_at_cuts",
+      "group": "Post-Processing Options",
+      "help": "Force keyframes at cuts when downloading/splitting/removing sections. This is slow due to needing a re-encode, but the resulting video may have fewer artifacts around the cuts",
+      "longOptions": [
+        "--force-keyframes-at-cuts"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "force_keyframes_at_cuts",
+      "group": "Post-Processing Options",
+      "help": "Do not force keyframes around the chapters when cutting/splitting (default)",
+      "longOptions": [
+        "--no-force-keyframes-at-cuts"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": [],
+      "dest": "add_postprocessors",
+      "group": "Post-Processing Options",
+      "help": "The (case-sensitive) name of plugin postprocessors to be enabled, and (optionally) arguments to be passed to it, separated by a colon \":\". ARGS are a semicolon \";\" delimited list of NAME=VALUE. The \"when\" argument determines when the postprocessor is invoked. It can be one of \"pre_process\" (after video extraction), \"after_filter\" (after video passes filter), \"video\" (after --format; before --print/--output), \"before_dl\" (before each video download), \"post_process\" (after each video download; default), \"after_move\" (after moving the video file to its final location), \"after_video\" (after downloading and processing all formats of a video), or \"playlist\" (at end of playlist). This option can be used multiple times to add different postprocessors",
+      "longOptions": [
+        "--use-postprocessor"
+      ],
+      "metavar": "NAME[:ARGS]",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": "set()",
+      "dest": "sponsorblock_mark",
+      "group": "SponsorBlock Options",
+      "help": "SponsorBlock categories to create chapters for, separated by commas. Available categories are sponsor, intro, outro, selfpromo, preview, filler, interaction, music_offtopic, hook, poi_highlight, chapter, all and default (=all). You can prefix the category with a \"-\" to exclude it. See [1] for descriptions of the categories. E.g. --sponsorblock-mark all,-preview [1] https://wiki.sponsor.ajay.app/w/Segment_Categories",
+      "longOptions": [
+        "--sponsorblock-mark"
+      ],
+      "metavar": "CATS",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": "set()",
+      "dest": "sponsorblock_remove",
+      "group": "SponsorBlock Options",
+      "help": "SponsorBlock categories to be removed from the video file, separated by commas. If a category is present in both mark and remove, remove takes precedence. The syntax and available categories are the same as for --sponsorblock-mark except that \"default\" refers to \"all,-filler\" and poi_highlight, chapter are not available",
+      "longOptions": [
+        "--sponsorblock-remove"
+      ],
+      "metavar": "CATS",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": "[SponsorBlock]: %(category_names)l",
+      "dest": "sponsorblock_chapter_title",
+      "group": "SponsorBlock Options",
+      "help": "An output template for the title of the SponsorBlock chapters created by --sponsorblock-mark. The only available fields are start_time, end_time, category, categories, name, category_names. Defaults to \"%default\"",
+      "longOptions": [
+        "--sponsorblock-chapter-title"
+      ],
+      "metavar": "TEMPLATE",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "no_sponsorblock",
+      "group": "SponsorBlock Options",
+      "help": "Disable both --sponsorblock-mark and --sponsorblock-remove",
+      "longOptions": [
+        "--no-sponsorblock"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": "https://sponsor.ajay.app",
+      "dest": "sponsorblock_api",
+      "group": "SponsorBlock Options",
+      "help": "SponsorBlock API location, defaults to %default",
+      "longOptions": [
+        "--sponsorblock-api"
+      ],
+      "metavar": "URL",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store",
+      "choices": [],
+      "default": 3,
+      "dest": "extractor_retries",
+      "group": "Extractor Options",
+      "help": "Number of retries for known extractor errors (default is %default), or \"infinite\"",
+      "longOptions": [
+        "--extractor-retries"
+      ],
+      "metavar": "RETRIES",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": true,
+      "dest": "dynamic_mpd",
+      "group": "Extractor Options",
+      "help": "Process dynamic DASH manifests (default) (Alias: --no-ignore-dynamic-mpd)",
+      "longOptions": [
+        "--allow-dynamic-mpd",
+        "--no-ignore-dynamic-mpd"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "dynamic_mpd",
+      "group": "Extractor Options",
+      "help": "Do not process dynamic DASH manifests (Alias: --no-allow-dynamic-mpd)",
+      "longOptions": [
+        "--ignore-dynamic-mpd",
+        "--no-allow-dynamic-mpd"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_true",
+      "choices": [],
+      "default": false,
+      "dest": "hls_split_discontinuity",
+      "group": "Extractor Options",
+      "help": "Split HLS playlists to different formats at discontinuities such as ad breaks",
+      "longOptions": [
+        "--hls-split-discontinuity"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "store_false",
+      "choices": [],
+      "default": [
+        "NO",
+        "DEFAULT"
+      ],
+      "dest": "hls_split_discontinuity",
+      "group": "Extractor Options",
+      "help": "Do not split HLS playlists into different formats at discontinuities such as ad breaks (default)",
+      "longOptions": [
+        "--no-hls-split-discontinuity"
+      ],
+      "metavar": null,
+      "shortOptions": [],
+      "takesValue": false,
+      "type": null
+    },
+    {
+      "action": "callback",
+      "choices": [],
+      "default": {},
+      "dest": "extractor_args",
+      "group": "Extractor Options",
+      "help": "Pass ARGS arguments to the IE_KEY extractor. See \"EXTRACTOR ARGUMENTS\" for details. You can use this option multiple times to give arguments for different extractors",
+      "longOptions": [
+        "--extractor-args"
+      ],
+      "metavar": "IE_KEY:ARGS",
+      "shortOptions": [],
+      "takesValue": true,
+      "type": "string"
+    }
+  ],
+  "source": "yt_dlp.options.create_parser",
+  "ytDlpVersion": "2026.03.17"
+}

@@ -1,0 +1,74 @@
+{
+  "name": "yt-dlp-bridge",
+  "version": "0.1.0",
+  "description": "TypeScript toolkit for safe yt-dlp command planning, argv generation, execution, parsing, and structured errors.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Antonio Orionus",
+  "homepage": "https://github.com/antonio-orionus/yt-dlp-bridge#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonio-orionus/yt-dlp-bridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antonio-orionus/yt-dlp-bridge/issues"
+  },
+  "packageManager": "pnpm@11.5.1",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/copy-assets.mjs",
+    "generate:options": "node scripts/generate-ytdlp-option-catalog.mjs",
+    "verify:options": "node scripts/verify-ytdlp-option-catalog.mjs",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "prepack": "pnpm run build"
+  },
+  "keywords": [
+    "yt-dlp",
+    "yt-dlp-wrapper",
+    "yt-dlp-node",
+    "youtube-dl",
+    "media-downloader",
+    "video-downloader",
+    "download-manager",
+    "ffmpeg",
+    "metadata-extraction",
+    "command-builder",
+    "argv",
+    "typescript",
+    "esm",
+    "zod",
+    "mcp",
+    "planner",
+    "wrapper"
+  ],
+  "dependencies": {
+    "ytdlp-errors": "^1.1.0",
+    "zod": "^4.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.0.15"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
