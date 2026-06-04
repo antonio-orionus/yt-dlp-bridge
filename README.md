@@ -20,6 +20,7 @@ TypeScript primitives for building safe, policy-aware integrations on top of `yt
 - [Configuration](#configuration)
 - [Requirements](#requirements)
 - [Development](#development)
+- [Release](#release)
 - [Troubleshooting](#troubleshooting)
 - [License](#license)
 
@@ -245,10 +246,34 @@ console.log(format ? optionMetadata(format) : undefined);
 | `pnpm run verify:options` | Verify that the generated option catalog matches Python `yt_dlp`. |
 | `pnpm pack --dry-run` | Preview the package contents before publishing. |
 
+## Release
+
+GitHub Actions handles CI and npm publishing:
+
+- `.github/workflows/ci.yml` runs typecheck, tests, build, and package dry-run on pull requests and pushes to `main`.
+- `.github/workflows/publish.yml` publishes to npm when a `vX.Y.Z` tag is pushed and the tag matches `package.json`.
+- Publishing uses npm trusted publishing with GitHub Actions OIDC and `npm publish --provenance --access public`; no `NPM_TOKEN` secret is required when the trusted publisher is configured.
+
+The npm trusted publisher should point at:
+
+```text
+repository: antonio-orionus/yt-dlp-bridge
+workflow file: publish.yml
+environment: none
+```
+
+Release flow:
+
+```bash
+pnpm version patch
+git push origin main --follow-tags
+```
+
 ## Project Structure
 
 ```text
 yt-dlp-bridge/
+├── .github/workflows/    # CI and npm publish automation
 ├── src/                 # TypeScript source and generated option catalog
 ├── tests/               # Vitest coverage for argv, policy, parsers, planning, and errors
 ├── scripts/             # Option catalog generation and package asset scripts
