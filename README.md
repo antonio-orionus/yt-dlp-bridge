@@ -259,7 +259,7 @@ The npm trusted publisher should point at:
 ```text
 repository: antonio-orionus/yt-dlp-bridge
 workflow file: publish.yml
-environment: none
+environment: npm
 ```
 
 Release flow:
