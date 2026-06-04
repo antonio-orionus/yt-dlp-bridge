@@ -2,6 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/yt-dlp-bridge.svg)](https://www.npmjs.com/package/yt-dlp-bridge)
 [![npm downloads](https://img.shields.io/npm/dm/yt-dlp-bridge.svg)](https://www.npmjs.com/package/yt-dlp-bridge)
+[![CI](https://github.com/antonio-orionus/yt-dlp-bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/antonio-orionus/yt-dlp-bridge/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Node.js >=22.13](https://img.shields.io/badge/node-%3E%3D22.13-brightgreen.svg)](package.json)
@@ -39,6 +40,9 @@ TypeScript primitives for building safe, policy-aware integrations on top of `yt
 
 ```bash
 npm install yt-dlp-bridge
+# pnpm add yt-dlp-bridge
+# yarn add yt-dlp-bridge
+# bun add yt-dlp-bridge
 ```
 
 ```ts
