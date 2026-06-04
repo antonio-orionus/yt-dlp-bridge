@@ -1,7 +1,7 @@
 {
   "name": "yt-dlp-bridge",
   "version": "0.1.5",
-  "description": "TypeScript toolkit for safe yt-dlp command planning, argv generation, execution, parsing, and structured errors.",
+  "description": "TypeScript library for safe, no-shell yt-dlp integration: command planning, argv generation, process execution, output parsing, and structured errors.",
   "type": "module",
   "license": "MIT",
   "author": "Antonio Orionus",
@@ -39,22 +39,22 @@
   },
   "keywords": [
     "yt-dlp",
-    "yt-dlp-wrapper",
     "yt-dlp-node",
     "youtube-dl",
     "media-downloader",
     "video-downloader",
-    "download-manager",
     "ffmpeg",
     "metadata-extraction",
     "command-builder",
     "argv",
+    "no-shell",
+    "subprocess",
+    "redaction",
+    "structured-errors",
     "typescript",
     "esm",
     "zod",
-    "mcp",
-    "planner",
-    "wrapper"
+    "mcp"
   ],
   "dependencies": {
     "ytdlp-errors": "^1.1.0",
