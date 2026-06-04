@@ -193,6 +193,7 @@ pnpm install
 | `pnpm run typecheck` | TypeScript check without emitting. |
 | `pnpm run generate:options` | Regenerate the option catalog from Python `yt_dlp`. |
 | `pnpm run verify:options` | Verify the catalog matches Python `yt_dlp`. |
+| `pnpm pack --dry-run` | Preview package contents before publishing. |
 
 ## Troubleshooting
 
@@ -208,4 +209,4 @@ Bugs and feature requests: [GitHub Issues](https://github.com/antonio-orionus/yt
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE) © 2026 Antonio Orionus
