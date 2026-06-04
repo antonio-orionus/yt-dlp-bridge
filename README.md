@@ -4,7 +4,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/yt-dlp-bridge.svg)](https://www.npmjs.com/package/yt-dlp-bridge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Node.js >=20](https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg)](package.json)
+[![Node.js >=22.13](https://img.shields.io/badge/node-%3E%3D22.13-brightgreen.svg)](package.json)
 
 TypeScript primitives for building safe, policy-aware integrations on top of `yt-dlp`: command planning, argv generation, environment checks, process execution, output parsing, redaction, and structured errors.
 
@@ -229,7 +229,7 @@ console.log(format ? optionMetadata(format) : undefined);
 
 ## Requirements
 
-- Node.js >= 20.
+- Node.js >= 22.13.
 - ESM import support.
 - `yt-dlp` installed when planning or running real yt-dlp workflows.
 - `ffmpeg` and `ffprobe` for audio extraction, audio/video merge, remuxing, recoding, segment editing, subtitle conversion, thumbnail conversion, and embedding workflows.
