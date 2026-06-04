@@ -84,4 +84,4 @@ jobs:
           subject-path: npm-artifacts/*.tgz
 
       - name: Publish
-        run: npm publish npm-artifacts/*.tgz --access public
+        run: npm publish ./npm-artifacts/*.tgz --access public
