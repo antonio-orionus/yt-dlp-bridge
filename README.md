@@ -251,14 +251,14 @@ console.log(format ? optionMetadata(format) : undefined);
 GitHub Actions handles CI and npm publishing:
 
 - `.github/workflows/ci.yml` runs typecheck, tests, build, and package dry-run on pull requests and pushes to `main`.
-- `.github/workflows/publish.yml` publishes to npm when a `vX.Y.Z` tag is pushed and the tag matches `package.json`.
+- `.github/workflows/release.yml` publishes to npm when a `vX.Y.Z` tag is pushed and the tag matches `package.json`.
 - Publishing uses npm trusted publishing with GitHub Actions OIDC and `npm publish --access public`; no `NPM_TOKEN` secret is required when the trusted publisher is configured. npm automatically generates provenance for trusted publishes from GitHub Actions.
 
 The npm trusted publisher should point at:
 
 ```text
 repository: antonio-orionus/yt-dlp-bridge
-workflow file: publish.yml
+workflow file: release.yml
 environment: npm
 ```
 
